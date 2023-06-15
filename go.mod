@@ -45,6 +45,8 @@ require (
 require (
 	github.com/Microsoft/go-winio v0.6.0 // indirect
 	github.com/antlr/antlr4/runtime/Go/antlr/v4 v4.0.0-20230305170008-8188dc5388df // indirect
+	github.com/caddy-dns/cloudflare v0.0.0-20230224210553-a9d3ae2690a1 // indirect
+	github.com/caddyserver/forwardproxy v0.0.0-20230529054255-8b5d75a97904 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fxamacker/cbor/v2 v2.4.0 // indirect
 	github.com/golang/glog v1.1.0 // indirect
@@ -54,6 +56,7 @@ require (
 	github.com/google/go-tspi v0.3.0 // indirect
 	github.com/google/pprof v0.0.0-20210720184732-4bb14d4b1be1 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.7.0 // indirect
+	github.com/libdns/cloudflare v0.1.0 // indirect
 	github.com/onsi/ginkgo/v2 v2.2.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/quic-go/qpack v0.4.0 // indirect
@@ -149,3 +152,5 @@ require (
 	gopkg.in/square/go-jose.v2 v2.6.0 // indirect
 	howett.net/plist v1.0.0 // indirect
 )
+
+replace github.com/caddyserver/forwardproxy v0.0.0-20230529054255-8b5d75a97904 => github.com/klzgrad/forwardproxy v0.0.0-20230219082723-ef4a5997791a
