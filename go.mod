@@ -10,6 +10,7 @@ require (
 	github.com/alecthomas/chroma/v2 v2.9.1
 	github.com/aryann/difflib v0.0.0-20210328193216-ff5ff6dc229b
 	github.com/caddyserver/certmagic v0.20.0
+	github.com/caddyserver/forwardproxy v0.0.0-20240212043213-bf7eb3105151
 	github.com/dustin/go-humanize v1.0.1
 	github.com/go-chi/chi/v5 v5.0.10
 	github.com/google/cel-go v0.15.1
@@ -36,11 +37,11 @@ require (
 	go.uber.org/automaxprocs v1.5.3
 	go.uber.org/zap v1.26.0
 	go.uber.org/zap/exp v0.2.0
-	golang.org/x/crypto v0.18.0
+	golang.org/x/crypto v0.19.0
 	golang.org/x/exp v0.0.0-20231214170342-aacd6d4b4611
-	golang.org/x/net v0.19.0
+	golang.org/x/net v0.21.0
 	golang.org/x/sync v0.5.0
-	golang.org/x/term v0.16.0
+	golang.org/x/term v0.17.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20231120223509-83a465c0220f
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 	gopkg.in/yaml.v3 v3.0.1
@@ -115,7 +116,7 @@ require (
 	github.com/mattn/go-isatty v0.0.16 // indirect
 	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d // indirect
 	github.com/micromdm/scep/v2 v2.1.0 // indirect
-	github.com/miekg/dns v1.1.55 // indirect
+	github.com/miekg/dns v1.1.56 // indirect
 	github.com/mitchellh/copystructure v1.2.0 // indirect
 	github.com/mitchellh/go-ps v1.0.0 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
@@ -144,7 +145,7 @@ require (
 	go.step.sm/linkedca v0.20.1 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/mod v0.14.0 // indirect
-	golang.org/x/sys v0.16.0
+	golang.org/x/sys v0.17.0
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/tools v0.16.1 // indirect
 	google.golang.org/grpc v1.60.1 // indirect
