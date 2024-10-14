@@ -9,6 +9,7 @@ require (
 	github.com/Masterminds/sprig/v3 v3.3.0
 	github.com/alecthomas/chroma/v2 v2.14.0
 	github.com/aryann/difflib v0.0.0-20210328193216-ff5ff6dc229b
+	github.com/caddy-dns/porkbun v0.1.5
 	github.com/caddyserver/certmagic v0.21.4
 	github.com/caddyserver/zerossl v0.1.3
 	github.com/dustin/go-humanize v1.0.1
@@ -18,6 +19,7 @@ require (
 	github.com/klauspost/compress v1.17.10
 	github.com/klauspost/cpuid/v2 v2.2.8
 	github.com/mholt/acmez/v2 v2.0.3
+	github.com/mholt/caddy-ratelimit v0.0.0-20240828171918-12435ecef5db
 	github.com/prometheus/client_golang v1.19.1
 	github.com/quic-go/quic-go v0.47.0
 	github.com/smallstep/certificates v0.26.1
@@ -62,6 +64,7 @@ require (
 	github.com/google/go-tspi v0.3.0 // indirect
 	github.com/google/pprof v0.0.0-20231212022811-ec68065c825e // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.18.0 // indirect
+	github.com/libdns/porkbun v0.1.3 // indirect
 	github.com/onsi/ginkgo/v2 v2.13.2 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/quic-go/qpack v0.5.1 // indirect
