@@ -11,6 +11,7 @@ require (
 	github.com/aryann/difflib v0.0.0-20210328193216-ff5ff6dc229b
 	github.com/caddy-dns/porkbun v0.1.5
 	github.com/caddyserver/certmagic v0.21.4
+	github.com/caddyserver/forwardproxy v0.0.0-20240718200834-02be81e69669
 	github.com/caddyserver/zerossl v0.1.3
 	github.com/dustin/go-humanize v1.0.1
 	github.com/go-chi/chi/v5 v5.0.12
@@ -158,3 +159,5 @@ require (
 	google.golang.org/protobuf v1.34.1 // indirect
 	howett.net/plist v1.0.0 // indirect
 )
+
+replace github.com/caddyserver/forwardproxy => github.com/klzgrad/forwardproxy v0.0.0-20240421120909-b12c33ecb72c
